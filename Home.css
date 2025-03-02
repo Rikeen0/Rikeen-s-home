@@ -1,0 +1,186 @@
+
+*{
+   font-family: "Outfit", serif;
+}
+body{
+  background-image: url(a/anime-girl-red-eyes-with-glasses-hd-wallpaper-uhdpaper.com-280@5@b.jpg);
+   background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+
+
+
+ .itens{
+   width: 50px;
+    border-radius: 10px;
+    border:red 2px solid ;
+     border-radius: 10px;
+
+ }
+  li{
+   list-style: none;
+ }
+ .div1{
+  margin-right: 2%;
+ }
+
+.LD{
+   width: 2px;
+    margin-top: -27%;
+    margin-left: 1%;
+     height: 47%;
+      position: absolute;
+}
+
+/* css da barra lateral direita */
+
+
+.div2{
+   margin-top: 2%;
+}
+.pesquisa{
+  width: 240%;
+   margin-left: -70%;
+    padding: 7px;
+     background-color: black;
+      border-radius: 20px;
+       border: 2px red solid;
+        color: aliceblue;
+}
+.itens2{
+   width: 50px;
+    margin-left: 5px;
+     margin-right:5px ;
+      border-radius: 10px;
+      border:red 2px solid ;
+       border-radius: 10px;
+}
+.lista2{  
+   display: flex;
+
+}
+.hr{
+   width: 170%;
+    margin-left: -30%;
+}
+.browser{
+   margin-left: 48%;
+}
+
+/* css da barra centro */
+
+
+.div3{
+   margin-left: -1%;
+    margin-top: 1%; 
+  
+
+}
+.itens3{
+   width: 50px;
+   border:red 2px solid ;
+    border-radius: 10px;
+}
+li{
+   list-style: none;
+}
+.ls{
+   width: 2px;
+    height: 38%;
+     margin-left: 6%;
+      margin-top: -21.5%;
+       position: absolute;
+}
+
+/* css barra lateral esquerda */
+
+.divA{
+   display: flex;
+      justify-content: space-between;
+        margin-top: 11%;
+
+}
+
+/* css div global  */
+
+.itens:hover{
+   opacity: 40%; border-color: black;
+}
+.itens2:hover{
+   opacity: 40%;
+}
+.itens3:hover{
+  opacity:40% ;
+}
+
+/* resoluções */
+
+
+
+@media screen and (min-width: 319px) and (max-width: 500px){
+
+body{
+  background-size: 140%;
+   background-image: url(a/mobile.jpg);
+}   
+
+.browser{margin-left: 40%;}
+
+.hr2{margin-left: 30%;}
+
+.hr{margin-left: -30%;}
+
+ .div2{
+   width: 20%;
+    margin-top: 30% ;
+     margin-left: 22%;
+ }
+ 
+ .itens2{
+   margin-left: -200%;
+ }
+
+ .div1{opacity: 0%;}
+ .div3{opacity: 0%;}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+ 
+body{
+   background-image: url(a/mobile.jpg);
+}   
+.LD{
+opacity: 0%;
+ position: fixed;
+}
+.ls{
+ opacity: 0%;
+ position: fixed;
+}
+.div1{  
+  margin-top: 30%;
+ }
+.div2{
+   width: 20%;
+    margin-top: 30%;
+}
+.itens2{
+   margin-left: -150%;
+}
+.div3{
+ margin-top: 40%;
+}
+.browser{
+   margin-left: 43%;
+}
+.hr2{
+   margin-left: 14%;
+}
+.hr{
+   margin-left: -20%;
+
+}
+
+}
